@@ -1,0 +1,29 @@
+.cards-container {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); 2 cards per row */
+  gap: 20px; /* Space between cards */
+  justify-content: right;
+  align-items: right;
+  max-width: 150px; /* Limit the width */
+  /* margin: 0   auto; Center the grid */
+  scale: 0.9;
+}
+
+.card {
+  /* background-color: --var(white); */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  text-align: right;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.card img {
+  width: 170px;
+  height: 230px;
+  border-radius: 5px;
+}

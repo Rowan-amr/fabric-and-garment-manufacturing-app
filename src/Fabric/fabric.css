@@ -1,0 +1,21 @@
+.services-container {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.process-image {
+  width: 75%;
+  height: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-style: inherit;
+  /*padding-left: 25% */
+
+  /* margin-top: 65px; */
+  margin-left: 150px;
+}
+
+.services-title {
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  margin-top: 15px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Logo Container */
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+/* Logo Styling */
+.VFlogo {
+  /* width: 80px; /* Adjust size of logos */
+  /* height: 45px; */
+  scale: 0.25;
+  border-style: 5px;
+  border-radius: 5px;
+  border-style: --white;
+  margin-right: -40px;
+}
+.JBlogo {
+  /* width: 80px; /* Adjust size of logos */
+  /* height: 45px; */
+  scale: 0.2;
+  border-radius: 15px;
+  /* margin-left: -550px; */
+}

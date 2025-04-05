@@ -1,0 +1,30 @@
+.services-container {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.process-image {
+  width: 55%;
+  height: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-style: inherit;
+  /* margin-top: 65px; */
+  margin-left: 310px;
+  align-self: center;
+}
+
+.services-title {
+  text-align: center;
+}
+.process-steps p {
+  max-width: 750px;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

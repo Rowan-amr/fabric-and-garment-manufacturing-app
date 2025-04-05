@@ -1,0 +1,53 @@
+.PVH {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.PVH h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.PVH p {
+  font-size: 14px;
+  max-height: 30px;
+  line-height: 2.6;
+  margin-bottom: 10%;
+  text-align: justify;
+}
+
+.PVH ul {
+  text-align: justify;
+  width: 65%;
+  line-height: 19px;
+  margin-top: 10px;
+}
+
+.PVH li {
+  line-height: auto;
+  justify-content: flex-start;
+}
+
+.GQM-total {
+  justify-content: flex-end;
+}
+.GQM {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  justify-content: left;
+}
+
+.PVH {
+  margin-top: -310px;
+  font-size: 14px;
+}
+.GQM img {
+  scale: 0.6;
+  height: auto;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-left: 1105px; /*Pushes the image to the right*/
+  display: block; /* Ensures it doesn’t inherit flex properties */
+}

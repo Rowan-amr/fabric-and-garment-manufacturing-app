@@ -1,0 +1,29 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  align-self: center;
+  padding-left: 45px;
+  background-color: --white;
+  font-family: "Times New Roman", Times, serif;
+  gap: 5px;
+  justify-content: center;
+  width: 1660px;
+  scale: 0.9;
+  /* margin-left: -3px; */
+}
+
+.card-container {
+  /* padding: 20px; */
+  background-color: --var(black);
+  font-family: "Times New Roman", Times, serif;
+  align-self: left;
+  font-size: 14px;
+  width: calc(33% - 10px);
+  padding-left: 60px;
+  justify-content: center;
+}
+.card-container h2 {
+  margin-bottom: -2px;
+  font-size: 18px;
+}

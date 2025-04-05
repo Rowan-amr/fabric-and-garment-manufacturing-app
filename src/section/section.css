@@ -1,0 +1,70 @@
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  top: -105px;
+  /* margin-inline: 20px; */
+  margin: 40px;
+  background-color: #f0f0f0;
+  font-family: "Times New Roman", Times, serif;
+  flex-wrap: wrap;
+}
+
+.smallcontainer {
+  display: flex;
+  justify-content: space-between;
+  /* padding:   70px; */
+  background-color: white;
+  flex-wrap: initial;
+  width: 100%;
+  border-bottom: 20px;
+}
+
+.text-content {
+  max-width: 60%;
+}
+
+/* Flex container for logo and title */
+.image-content {
+  /* width: 60%; */
+  scale: 0.4;
+  /* height: 65%; */
+  border-radius: 20px;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); */
+  border-style: inherit;
+  display: -ms-inline-flexbox;
+}
+
+.rolls {
+  border-radius: 20px;
+  margin-top: -110px;
+  margin-right: -170px;
+}
+.text-content h2 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.text-content p {
+  font-size: 14px;
+  max-height: 30px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  justify-content: left;
+  text-align: justify;
+  margin-bottom: 14%;
+}
+
+.styles-content p {
+  font-size: 14px;
+  /* max-height: 20px; */
+  line-height: 1.6;
+  margin-bottom: 5px;
+  justify-content: left;
+  text-align: justify;
+  /* margin-bottom: 14%; */
+  max-width: 100%;
+}
+
+.styles-content h2 {
+  font-size: 18px;
+}
