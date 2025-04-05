@@ -1,9 +1,11 @@
 import React from "react";
+import profile from "./profile.jpg";
 import "./ContactPage.css";
 const ContactPage = () => {
   return (
     <div className="contact-container">
       <h2>Contact</h2>
+      <img src={profile} alt="Rowan" className="contact-image" />
       <p>
         <b>Name:</b> Rowan Amr Othman
       </p>
@@ -21,7 +23,6 @@ const ContactPage = () => {
           rel="noopener noreferrer"
         >
           \Rowan-Amr
-          {/* <img src="/your-image.jpg" alt="Your Profile" className="contact-image" /> */}
         </a>
       </p>
     </div>
