@@ -1,6 +1,6 @@
 import React from "react";
-import "./services.css"; // Make sure to create a CSS file for styling
-import processMap from "./processmap.png"; // Add an image of the factory process map
+import "./services.css"; 
+import processMap from "./processmap.png"; 
 
 const Services = () => {
   return (
